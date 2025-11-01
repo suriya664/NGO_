@@ -1,0 +1,105 @@
+# NGO Template - Git Ignore File
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.project
+.settings/
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Log Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency Directories (if using npm/node)
+node_modules/
+bower_components/
+vendor/
+
+# Build Output
+dist/
+build/
+.cache/
+*.min.css
+*.min.js
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+config.local.js
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Backup Files
+*.bak
+*.backup
+*-backup.*
+
+# Production Configuration
+config.production.json
+secrets.json
+
+# Server Files
+.htaccess.local
+php_errors.log
+
+# Uploaded Files (production)
+/assets/img/uploads/*
+!/assets/img/uploads/.gitkeep
+
+# Test Files
+/tests/
+/coverage/
+
+# Package Manager
+package-lock.json
+yarn.lock
+composer.lock
+
+# Cache
+cache/
+*.cache
+
+# Miscellaneous
+.sass-cache/
+.idea/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: Exclude large vendor libraries if self-hosted
+# /assets/vendors/
+
+# Keep these files
+!.gitkeep
+!README.md
+!LICENSE
+!CHANGELOG.md
+
